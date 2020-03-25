@@ -17,7 +17,7 @@ public class CastingPractice {
 		
 	/*
 	 **conversion flow:byte>short>char>int>long>float>double
-	 Widening casting is done automatically when passing a smaller size type to a larger size type:
+Widening casting is done automatically when passing a smaller size type to a larger size type:
 	 */
 		
 		short shrtAge = age; //performed widening casting as {byte age} > {short shrtAge};
@@ -31,7 +31,7 @@ Narrowing casting must be done manually by placing the type in parentheses in fr
 		 */
 		
 		System.out.println("double-dbl = :"+dbl);
-		int newInt = (int) dbl; //performed a narrow casting double>integer.
+		int newInt = (int) dbl; //performed a narrow casting double>integer..
 		System.out.println("int-newInt = :"+newInt);
 	}
 
