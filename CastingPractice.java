@@ -4,15 +4,15 @@ public class CastingPractice {
 
 	public static void main(String[] args) {
 		boolean live = true; // 1 bit
-		byte age = 25; //8 bit
-		short length = 32000; //16 bit
+		byte age = 25; //8 bit = 1 byte
+		short length = 32000; //16 bit = 2 byte
 		char chr = 'M'; //16 bit unicode
 		String str1 = "718-312-2613";
 		String str2 = "Hello.. World !";
-		int distance = 2123134141; // 32 bit
-		long altitude = 92000011112222444l; //64 bit
-		float floatings = 3.142857143f; //32 bit
-		double dbl = 3.14; //64 bit
+		int distance = 2123134141; // 32 bit = 4 byte
+		long altitude = 92000011112222444l; //64 bit = 8 byte
+		float floatings = 3.142857143f; //32 bit = 4 byte
+		double dbl = 3.14; //64 bit 8 byte
 		
 		
 	/*
